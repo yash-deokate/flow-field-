@@ -1,0 +1,29 @@
+flow feild using perlin noise.
+==============================
+
+
+
+
+tasks:
+
+1.vector flow field #done
+       
+       basically what we are doing is :
+         --generate bunch of vectors
+         --store each vector at a perticular index.
+
+
+2.sand physics engine #done
+
+        properties:
+         --has random position
+         --velocity adds up to position to change position
+         --acceleration adds up to velocity to change velocity
+         --acceleration acts as force here. so after applying once we have to make it 0.
+
+        
+       basically what we are doing is :
+         --when sand is at perticular position, we calculate index from position vector.
+         --apply the vector at that index, as acceleration.
+         
+           
